@@ -1,7 +1,7 @@
 # MONASH-Unity-Nightmare
 ## Monash University Game Engine Programming Project
 
-Nightmare is the first individual project I have ever created using Unity. It is a wave-based survival first-person shooting game that gives players limited resources to sustain themselves or protect certain objects using different strategies.
+Nightmare is the first individual project I have ever done using Unity. It is a wave-based survival first-person shooting game that gives players limited resources to sustain themselves or protect certain objects using different strategies.
 
 This project was originally completed in **2015** and later uploaded to Github in **2018**. The project had been left untouched for a long time as it was not able to compile due to the outdated Unity **4.3** and related packages.
 

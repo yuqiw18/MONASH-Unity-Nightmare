@@ -9,8 +9,4 @@ This project now has been updated to Unity **2018 (LTS)**. Compilation errors ha
 
 ### Screenshots from the Old Version:
 ![Old Screenshot#1](https://github.com/yuqiw18/MONASH-Unity-Nightmare/blob/master/Screenshots/ScreenshotOld1.png)
-
 ![Old Screenshot#2](https://github.com/yuqiw18/MONASH-Unity-Nightmare/blob/master/Screenshots/ScreenshotOld1.png)
-
-### Highlight from the Restored Version:
-![New Highlight](https://www.yuqi.dev/img/content/nightmare540.gif)

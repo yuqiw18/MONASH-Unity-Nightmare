@@ -12,7 +12,7 @@ public class Script_GarageDoor : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 	
-		on = false;
+		//on = false;
 		startYPos = gameObject.transform.position.y;
 
 	}

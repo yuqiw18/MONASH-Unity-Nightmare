@@ -32,7 +32,7 @@ public class Script_Weapon : MonoBehaviour {
 	private bool changingMag;
 	private bool canShoot;
 
-	public Transform hitEffect;
+	public GameObject hitEffect;
 	public AudioClip gunFire; // Gunfire sounds
 	public AudioClip reloading; // Reloading sounds
 
@@ -214,7 +214,7 @@ public class Script_Weapon : MonoBehaviour {
 				if (Physics.Raycast (ray, out hit, 500)) {
 					
 					hitObject = hit.collider.gameObject;
-					hitParticle = Instantiate (hitEffect, hit.point, Quaternion.LookRotation (hit.normal)) as GameObject;
+					hitParticle = Instantiate (hitEffect, hit.point, Quaternion.LookRotation (hit.normal));
 					//ParticleSystem particle = Instantiate (hitEffect, hit.point, Quaternion.LookRotation (hit.normal)) as ParticleSystem;
 					hit.transform.SendMessage ("getHit", Damage + Random.Range(damageModifier*-1 , damageModifier+1), SendMessageOptions.DontRequireReceiver);
 					hit.transform.SendMessage ("getCriticalHit", Damage + Random.Range(damageModifier*-1 , damageModifier+1), SendMessageOptions.DontRequireReceiver);
@@ -250,7 +250,7 @@ public class Script_Weapon : MonoBehaviour {
 				if (Physics.Raycast (ray, out hit, 500)) { 
 
 					hitObject = hit.collider.gameObject;
-					hitParticle = Instantiate (hitEffect, hit.point, Quaternion.LookRotation (hit.normal)) as GameObject;
+					hitParticle = Instantiate (hitEffect, hit.point, Quaternion.LookRotation (hit.normal));
 					hit.transform.SendMessage ("getHit", Damage + Random.Range(damageModifier*-1 , damageModifier+1), SendMessageOptions.DontRequireReceiver); //Call the method Apply Damage in the gameobject that is hit
 					hit.transform.SendMessage ("getCriticalHit", Damage + Random.Range(damageModifier*-1 , damageModifier+1), SendMessageOptions.DontRequireReceiver);
 				}

@@ -53,7 +53,7 @@ public class Script_MapConfig : MonoBehaviour {
 		awarded = false;
 
 		// Defense
-		totalTime = 360; // In seconds
+		totalTime = 300; // In seconds
 
 	}
 	

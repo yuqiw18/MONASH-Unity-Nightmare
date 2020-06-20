@@ -86,7 +86,6 @@ public class Script_Structure : MonoBehaviour {
 			durability -= 3;
 
 			gettingDamage = true;
-		
 		}
 	}
 
